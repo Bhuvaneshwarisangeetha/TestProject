@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25111" started-at="2022-11-28T02:48:38Z" finished-at="2022-11-28T02:49:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="runScenario" class="com.companyName.Testone.testrunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="25111" started-at="2022-11-28T02:48:38Z" finished-at="2022-11-28T02:49:03Z">
+      <class name="com.companyName.Testone.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUPClass()[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="setUPClass" is-config="true" duration-ms="105" started-at="2022-11-28T08:18:38Z" finished-at="2022-11-28T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="runScenario" duration-ms="21095" started-at="2022-11-28T08:18:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-28T08:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify new browser window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selenium Regression Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="runScenario" duration-ms="3177" started-at="2022-11-28T08:18:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-28T08:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify new browser tab"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selenium Regression Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="runScenario" duration-ms="639" started-at="2022-11-28T08:19:02Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-28T08:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify feedback form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Selenium Regression Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.companyName.Testone.testrunner.TestRunner@67205a84]" name="tearDown" is-config="true" duration-ms="33" started-at="2022-11-28T08:19:03Z" finished-at="2022-11-28T08:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyName.Testone.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
